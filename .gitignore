@@ -10,3 +10,4 @@ wheels/
 .venv
 milvus_docs/
 data/final_data.csv
+.env
