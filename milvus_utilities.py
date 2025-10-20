@@ -9,10 +9,13 @@ def embed_query(encoder, query):
 
     query_embeddings = F.normalize(query_embeddings, p=2, dim=1)
 
+    query_embeddings = query_embeddings.numpy()
+    query_embeddings = query_embeddings.tolist()
+
     norms = np.linalg.norm(query_embeddings, axis=1)
     assert np.allclose(norms, 1.0, atol=1e-5) == True
 
-    query_embeddings = list(map(np.float32, query_embeddings))
+    # query_embeddings = list(map(np.float32, query_embeddings))
 
     return query_embeddings
 
