@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
+<<<<<<< HEAD
 dependencies = [
     "ipykernel>=7.0.1",
     "ipython>=9.6.0",
@@ -16,3 +17,6 @@ dependencies = [
     "sentence-transformers>=5.1.1",
     "torch>=2.9.0",
 ]
+=======
+dependencies = []
+>>>>>>> a4d1adae4206eff221511eab5e1a79d9c0838183
