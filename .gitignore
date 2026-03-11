@@ -6,9 +6,14 @@ dist/
 wheels/
 *.egg-info
 data/process.csv
+data/all_job_post.csv
+.DS_Store
+all-files.txt
 
 # Virtual environments
 .venv
 milvus_docs/
 data/final_data.csv
 .env
+milvus_demo.db
+uv.lock
